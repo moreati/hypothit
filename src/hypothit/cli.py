@@ -87,8 +87,7 @@ def trial(args):
 
     try:
         g = {}
-        l = {}
-        exec(src, g, l)
+        exec(src, g)
     except:
         # Print the traceback of any exeception thrown by exec() with line
         # numbers relative to the templated code, not this file.
