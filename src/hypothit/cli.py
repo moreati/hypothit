@@ -20,11 +20,11 @@ from hypothesis.strategies import integers
 {setup}\
 
 @given({given})
-def f({arguments}):
+def inner({arguments}):
 {assume}\
     {assertion}
 
-f()
+inner()
 '''
 
 
