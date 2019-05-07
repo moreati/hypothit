@@ -83,7 +83,7 @@ def trial(args):
     )
 
     if args.show:
-        print(src)
+        print(src, end='---\n')
 
     try:
         g = {}
@@ -94,6 +94,7 @@ def trial(args):
         traceback.print_exc()
         return 2
 
+    print('No falsifying example found')
     return 0
 
 
