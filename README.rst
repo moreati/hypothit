@@ -34,12 +34,6 @@ Command line interface for Hypothesis property based tests
 * Free software: MPL v2
 * Documentation: https://hypothit.readthedocs.io.
 
-
-Features
---------
-
-* TODO
-
 Credits
 -------
 
